@@ -115,7 +115,7 @@
     <Content Include="img\works\d.jpg" />
     <Content Include="img\works\f.jpg" />
     <Content Include="index.html" />
-    <Content Include="js\ainos.js" />
+    <Content Include="js\web.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\css3-animate-it.js" />
     <Content Include="js\custom.js" />
@@ -158,6 +158,8 @@
     <Content Include="font-awesome\scss\_stacked.scss" />
     <Content Include="font-awesome\scss\_variables.scss" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\chenscode - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\chenscode - ReadOnly - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\chenscode - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -165,6 +167,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="_config.yml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
